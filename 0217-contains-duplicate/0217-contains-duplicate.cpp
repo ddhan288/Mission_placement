@@ -1,6 +1,6 @@
 // using hashmap optimised version 
 // time complexity O(n)
-// space complexity 
+// space complexity O(n)
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
