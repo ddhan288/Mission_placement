@@ -6,7 +6,9 @@ public:
         for(int i =0; i<n; i++){
             if(nums[i] == val){
                 
-                nums.erase(remove(nums.begin(), nums.end(), val), nums.end());
+                // nums.erase(remove(nums.begin(), nums.end(), val), nums.end());
+                auto iterator= remove(nums.begin(),nums.end(),val);
+                nums.erase(iterator,nums.end());
             }
 
         }
